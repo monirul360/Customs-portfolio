@@ -269,12 +269,11 @@ h6 {
 }
 
 .service-items .icon svg {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: auto;
+  color: var(--color-primary);
+  stroke-width: 1 !important;
   margin-bottom: 29px;
-  font-size: 100px;
-  line-height: 27px;
-  color: var(--color-danger);
 }
 
 .service-items .content a {
@@ -285,6 +284,26 @@ h6 {
 
 .service-items .description {
   color: var(--color-border);
+}
+
+/* ========================work item=========== */
+.work {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+.work-items {
+  text-align: left;
+  padding: 30px;
+  transition: 0.5s all ease-in-out;
+  border-radius: 10px;
+  background: var(--background-color-1);
+  box-shadow: var(--shadow-1);
+  position: relative;
+  z-index: 1;
+  margin: 20px 5px;
 }
 
 /* ====================common================ */
