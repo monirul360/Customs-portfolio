@@ -10,7 +10,9 @@ const Work = () => {
         <div>
             <div className="work-section">
                 <div className="container">
-                    <h1 className='text-white'>My Works</h1>
+                    <p className='work-title mb-4'>VISIT MY PROJECT AND KEEP YOUR FEEDBACK
+                    </p>
+                    <h1 className='text-white text-center mb-3'>My Project</h1>
                     <div className="row work">
                         {/* work-col-start */}
                         <div className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30 aos-init aos-animate">
@@ -19,7 +21,7 @@ const Work = () => {
                                     <img className='img-fluid' src={img1} alt="" />
                                 </div>
                                 <div className="content">
-                                    <p className='sub-title'>Web</p>
+                                    <p className='sub-title'>development</p>
                                     <h4>App Design Development.</h4>
                                 </div>
                             </div>

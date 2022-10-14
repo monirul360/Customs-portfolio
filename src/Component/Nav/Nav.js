@@ -15,7 +15,7 @@ const Nav = () => {
                                         <img src={logo} alt="" />
                                     </div>
                                     <div className="logo-text">
-                                        <h6>Monirul360</h6>
+                                        <h6>Monirul</h6>
                                     </div>
                                 </div>
                             </Link>

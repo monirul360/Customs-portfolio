@@ -9,12 +9,13 @@ const Hero = () => {
                     <div className="row hero">
                         <div className="col-md-7">
                             <div className="hero-text">
-                                <h1>Hi, i'm <span>Moirul360</span></h1>
+                                <p className='hello-world'>WELCOME TO MY WORLD</p>
+                                <h1>Hi, i'm <span>Moirul Islam</span></h1>
                                 <h1>Mern stack developer</h1>
                                 <br />
                                 <p>I'm Md Monirul Islam from a small beautiful country Bangladesh. I’m a passionate and progmatic front end developer with 2 years of professional experience, specializing in full-stack development using Node js Technologies on the backend.</p>
                                 <div className="find-section">
-                                    <p className='lead'>FIND WITH ME</p>
+                                    <p className='find-me'>FIND WITH ME</p>
                                     <Link to='/'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                                     </Link>
