@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
-        <div>
+        <div id='m-service-scroll'>
             <section>
                 <div className="container">
                     <h1 className='text-white ms-2'>My Service</h1>

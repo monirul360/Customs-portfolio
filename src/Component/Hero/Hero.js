@@ -3,14 +3,14 @@ import monirul from './../../Img/logo.png'
 import { Link } from 'react-router-dom';
 const Hero = () => {
     return (
-        <div>
+        <div id='m-about-scroll'>
             <div className="section section-padding">
                 <div className="container">
                     <div className="row hero">
                         <div className="col-md-7">
                             <div className="hero-text">
                                 <p className='hello-world'>WELCOME TO MY WORLD</p>
-                                <h1>Hi, i'm <span>Moirul Islam</span></h1>
+                                <h1>Hi, i'm <span>Monirul Islam</span></h1>
                                 <h1>Mern stack developer</h1>
                                 <br />
                                 <p>I'm Md Monirul Islam from a small beautiful country Bangladesh. I’m a passionate and progmatic front end developer with 2 years of professional experience, specializing in full-stack development using Node js Technologies on the backend.</p>

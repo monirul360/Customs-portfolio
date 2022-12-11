@@ -6,9 +6,8 @@ import img4 from './../../Img/Work/portfolio-04.jpg';
 import img5 from './../../Img/Work/portfolio-05.jpg';
 import img6 from './../../Img/Work/portfolio-01.jpg';
 const Work = () => {
-    const post = [1, 2, 3, 4, 5, 6, 7];
     return (
-        <div>
+        <div id='m-work-scroll'>
             <div className="work-section">
                 <div className="container">
                     <p className='work-title mb-4'>VISIT MY PROJECT AND KEEP YOUR FEEDBACK

@@ -2,7 +2,7 @@ import React from 'react';
 import contactimg from './../../Img/contact1.png';
 const Contact = () => {
     return (
-        <div>
+        <div id='m-contat-scroll'>
             <section className="contact-section">
                 <div class="container contact">
                     <div class="row">

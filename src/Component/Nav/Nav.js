@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './../../Img/logo.png';
+import resume from './../../Resume/monirul-resume.pdf';
 const Nav = () => {
     const [menunav, setMenunav] = useState(false)
     return (
@@ -24,11 +25,11 @@ const Nav = () => {
                         <div className={`nav-items ${menunav ? '.nav .nav-items' : 'nav-hide'}`}>
                             <ul>
                                 <li><Link to='/'>Home</Link></li>
-                                <li><Link to='/'>About</Link></li>
-                                <li><Link to='/'>Skills</Link></li>
-                                <li><Link to='/'>Projects</Link></li>
-                                <li><Link to='/'>Contact</Link></li>
-                                <li><Link to='/'>Resume</Link></li>
+                                <li><a href='/#m-about-scroll'>About</a></li>
+                                <li><a href='/#m-service-scroll'>Service</a></li>
+                                <li><a href='/#m-work-scroll'>Projects</a></li>
+                                <li><a href='/#m-contat-scroll'>Contact</a></li>
+                                <li><a href={resume} download="resume.pdf">Resume</a></li>
                                 <li><Link to='/'>Blogs</Link></li>
                             </ul>
                         </div>
